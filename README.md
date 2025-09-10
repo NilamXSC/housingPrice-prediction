@@ -79,26 +79,31 @@ housing-prices/
 ## ⚡ How to Run Locally
 
 1. Clone the repo:
+   
    git clone https://github.com/NilamXSC/housingPrice-prediction
    cd housing-prices
    
 2. Create and activate a virtual environment:
+   
    python -m venv env
-   # Windows
    .\env\Scripts\Activate.ps1
    
 3. Install dependencies:
+
    pip install -r requirements.txt
 
 4. Run the app:
+   
    streamlit run app.py
 
 🙌 Acknowledgements
+
 Dataset: Kaggle House Prices
 
 Tools: Python, scikit-learn, Streamlit, GitHub
 
 👤 Author
+
 Developed by Nilam Chakraborty
 
 GitHub: https://github.com/NilamXSC
