@@ -11,7 +11,7 @@ import seaborn as sns
 st.set_page_config(page_title="🏡 Housing Price Predictor", layout="wide", initial_sidebar_state="expanded")
 
 # --- Paths (adjust if needed) ---
-ROOT = r"F:\Data Science\housing-prices"
+ROOT = os.path.dirname(os.path.abspath(__file__))  # project root dynamically
 MODEL_TUNED = os.path.join(ROOT, "models", "final_model_tuned.joblib")
 MODEL_SIMPLE = os.path.join(ROOT, "models", "final_model.joblib")
 DATA_CSV = os.path.join(ROOT, "data", "train.csv")
