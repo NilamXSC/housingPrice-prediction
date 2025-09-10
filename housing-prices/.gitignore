@@ -1,0 +1,45 @@
+# -------------------------
+# Python & Virtual Environment
+# -------------------------
+env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# -------------------------
+# Jupyter Notebooks
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# Logs & Cache
+# -------------------------
+*.log
+*.pot
+*.py[cod]
+*$py.class
+.pytest_cache/
+__pycache__/
+
+# -------------------------
+# Data (keep out of repo, too big / sensitive)
+# -------------------------
+data/
+
+# -------------------------
+# Models (⚠️ KEEP in repo so Streamlit Cloud can load final_model.joblib)
+# -------------------------
+# models/   <-- do NOT ignore, we want to include models in GitHub
+
+# -------------------------
+# OS / IDE files
+# -------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
